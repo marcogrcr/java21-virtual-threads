@@ -131,11 +131,11 @@ Therefore, in order to safeguard the throughput of Virtual Threads, it's critica
 
 This repository contains the following examples.
 
-- `VirtualThreadBasics.java`: Contains the basics on creating and starting Virtual Threads.
-- `VirtualThreadsVsOtherApproaches.java`: Compares Virtual Threads with other concurrent programming approaches.
-- `VirtualThreadsAreCheap.java`: Showcases how creating Virtual Threads is a cheap operation.
-- `VirtualThreadPinning.java`: Demonstrates how thread pinning negatively affects throughput.
-- `VirtualThreadLocal.java`: Displays how `ThreadLocal` works in Virtual Threads even when the Carrier Thread changes. 
+- [VirtualThreadBasics.java]: Contains the basics on creating and starting Virtual Threads.
+- [VirtualThreadsVsOtherApproaches.java]: Compares Virtual Threads with other concurrent programming approaches.
+- [VirtualThreadsAreCheap.java]: Showcases how creating Virtual Threads is a cheap operation.
+- [VirtualThreadPinning.java]: Demonstrates how thread pinning negatively affects throughput.
+- [VirtualThreadLocal.java]: Displays how `ThreadLocal` works in Virtual Threads even when the Carrier Thread changes. 
 
 [BLOCKED]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.State.html#BLOCKED
 [CompletableFuture]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/CompletableFuture.html
@@ -153,6 +153,11 @@ This repository contains the following examples.
 [Thread.startVirtualThread()]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#startVirtualThread(java.lang.Runnable)
 [Thread.sleep()]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#sleep(long)
 [Virtual Threads]: https://docs.oracle.com/en/java/javase/21/core/virtual-threads.html
+[VirtualThreadBasics.java]: https://github.com/marcogrcr/java21-virtual-threads/blob/main/src/main/java/com/github/marcogrcr/VirtualThreadBasics.java
+[VirtualThreadLocal.java]: https://github.com/marcogrcr/java21-virtual-threads/blob/main/src/main/java/com/github/marcogrcr/VirtualThreadLocal.java
+[VirtualThreadPinning.java]: https://github.com/marcogrcr/java21-virtual-threads/blob/main/src/main/java/com/github/marcogrcr/VirtualThreadPinning.java
+[VirtualThreadsAreCheap.java]: https://github.com/marcogrcr/java21-virtual-threads/blob/main/src/main/java/com/github/marcogrcr/VirtualThreadsAreCheap.java
+[VirtualThreadsVsOtherApproaches.java]: https://github.com/marcogrcr/java21-virtual-threads/blob/main/src/main/java/com/github/marcogrcr/VirtualThreadsVsOtherApproaches.java
 [foreign function]: https://docs.oracle.com/en/java/javase/21/core/foreign-function-and-memory-api.html
 [native]: https://docs.oracle.com/en/java/javase/21/docs/specs/jni/index.html
 [synchronized]: https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html
